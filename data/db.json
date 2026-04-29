@@ -1,0 +1,96 @@
+{
+  "libraries": [
+    {
+      "id": 1,
+      "name": "Yeşilyurt İlçe Halk Kütüphanesi",
+      "slug": "yesilyurt",
+      "email": "yesilyurt@ktb.gov.tr",
+      "passwordPlain": "123456",
+      "approved": true,
+      "status": "approved",
+      "logo": "",
+      "banner": "",
+      "theme": "light",
+      "aboutTR": "Kütüphanemiz etkinlik arşivi, eğitici oyunlar ve kültürel çalışmalarla hizmet vermektedir.",
+      "aboutEN": "Our library serves the community with event archives, educational games and cultural activities.",
+      "addressTR": "Adıyaman / Yeşilyurt",
+      "addressEN": "Adiyaman / Yesilyurt",
+      "phone": "0416 000 00 00",
+      "contactEmail": "yesilyurt@ktb.gov.tr"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "email": "admin@ktb.gov.tr",
+      "password": "$2b$10$IgTh1quh166K43ajx.cdMeuFQhSD2.wiOOUS6WJ1zRonPXUxCnTxS",
+      "role": "SUPER_ADMIN",
+      "libraryId": null
+    },
+    {
+      "id": 2,
+      "email": "yesilyurt@ktb.gov.tr",
+      "password": "$2b$10$HwjlPdtxItS.6Frn4VbUseqkHlsJLC4dbRrLcgUekG8MoxupgYrcG",
+      "role": "LIBRARY_ADMIN",
+      "libraryId": 1
+    }
+  ],
+  "events": [
+    {
+      "id": 1,
+      "libraryId": 1,
+      "titleTR": "Masal Atölyesi",
+      "titleEN": "Story Workshop",
+      "descriptionTR": "Çocuklarımızın hayal gücünü geliştiren eğlenceli masal etkinliği.",
+      "descriptionEN": "A fun story event designed to improve children's imagination.",
+      "date": "2026-05-10",
+      "time": "14:00",
+      "locationTR": "Çocuk Salonu",
+      "locationEN": "Children's Hall",
+      "ageMin": 4,
+      "ageMax": 8,
+      "capacity": 20,
+      "poster": ""
+    },
+    {
+      "id": 2,
+      "libraryId": 1,
+      "titleTR": "Akıl ve Zeka Oyunları",
+      "titleEN": "Mind and Intelligence Games",
+      "descriptionTR": "Strateji, dikkat ve problem çözme becerilerini geliştiren etkinlik.",
+      "descriptionEN": "An activity that improves strategy, attention and problem-solving skills.",
+      "date": "2026-04-15",
+      "time": "13:00",
+      "locationTR": "Etkinlik Salonu",
+      "locationEN": "Event Hall",
+      "ageMin": 8,
+      "ageMax": 14,
+      "capacity": 16,
+      "poster": ""
+    }
+  ],
+  "applications": [],
+  "games": [
+    {
+      "id": 1,
+      "libraryId": 1,
+      "nameTR": "Mangala",
+      "nameEN": "Mangala",
+      "descriptionTR": "Strateji ve planlama becerilerini geliştiren geleneksel zeka oyunu.",
+      "descriptionEN": "A traditional intelligence game that improves strategy and planning skills.",
+      "howToPlayTR": "Oyuncular taşları kuyulara dağıtarak en fazla taşı toplamaya çalışır.",
+      "howToPlayEN": "Players distribute stones into pits and try to collect the most stones.",
+      "pieceCount": 49,
+      "ageRange": "7+",
+      "playerCount": "2",
+      "shelfCode": "OY-001",
+      "image": "",
+      "status": "available",
+      "borrowerName": "",
+      "borrowDate": "",
+      "barcode": "GAME-1"
+    }
+  ],
+  "archiveImages": [],
+  "notifications": []
+}
